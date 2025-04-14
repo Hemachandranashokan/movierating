@@ -1,0 +1,17 @@
+-- Users
+INSERT INTO Users VALUES (1, 'Alice', 'alice@example.com');
+INSERT INTO Users VALUES (2, 'Bob', 'bob@example.com');
+
+-- Movies
+INSERT INTO Movies VALUES (101, 'Inception', 'Sci-Fi', 2010);
+INSERT INTO Movies VALUES (102, 'Titanic', 'Romance', 1997);
+INSERT INTO Movies VALUES (103, 'Interstellar', 'Sci-Fi', 2014);
+
+-- Reviews
+INSERT INTO Reviews VALUES (1, 1, 101, 'Mind-blowing movie!', '2024-03-01');
+INSERT INTO Reviews VALUES (2, 2, 102, 'Emotional and touching.', '2024-03-02');
+
+-- Ratings
+INSERT INTO Ratings VALUES (1, 1, 101, 9, '2024-03-01');
+INSERT INTO Ratings VALUES (2, 2, 102, 8, '2024-03-02');
+INSERT INTO Ratings VALUES (3, 1, 103, 10, '2024-03-05');
